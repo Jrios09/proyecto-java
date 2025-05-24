@@ -13,6 +13,31 @@ public class Chasis {
         this.dimensiones = dimensiones;
         this.peso = peso;
     }  
+// GETTERS (lectura)
+public String gettipo() {
+    return tipo;
+}
+
+public String getdimensiones() {
+    return dimensiones;
+}
+
+public String getpeso() {
+    return peso;
+}
+
+// SETTERS (escritura)
+public void settipo(String tipo) {
+    this.tipo = tipo;
+}
+
+public void setdimensiones(String dimensiones) {
+    this.dimensiones = dimensiones;
+}
+
+public void setpeso(String peso) {
+    this. peso = peso;
+}
 
     public void displayInfo(){
         System.err.println("Chasis Information:");

@@ -13,6 +13,28 @@ public class Motor {
         this.cilindraje = cilindraje;
         this.potencia = potencia;
     }
+    public String gettipo() {
+        return tipo;
+    }
+
+    public String getcilindraje() {
+        return cilindraje;
+    }
+
+    public String getpotencia() {
+        return potencia;
+    }
+    public void settipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setcilindraje(String cilindraje) {
+        this.cilindraje = cilindraje;
+    }
+
+    public void setpotencia(String potencia) {
+        this.potencia = potencia;
+    }
 
     public void displayInfo(){
         System.err.println("Motor Information:");

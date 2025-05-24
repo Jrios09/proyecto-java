@@ -14,6 +14,33 @@ public class SistemaFrenos {
         this.discos = discos;
         this.ABS = ABS;
         this.estado = estado;
+    }        public String gettipo() {
+        return tipo;
+    }
+
+    public String getdiscos() {
+        return discos;
+    }
+
+    public String getABS() {
+        return ABS;
+    }
+    public String  getestado() {
+        return estado;
+    }
+    public void settipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setdiscos(String discos) {
+        this.discos = discos;
+    }
+
+    public void setABS(String ABS) {
+        this.ABS = ABS;
+}
+    public void setestado(String estado) {
+    this.estado = estado;
     }
 
     public void displayInfo(){

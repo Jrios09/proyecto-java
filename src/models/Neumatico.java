@@ -13,7 +13,28 @@ public class Neumatico {
         this.tamaño = tamaño;
         this.presion = presion;
     }
+        public String getmarca() {
+        return marca;
+    }
 
+    public String gettamaño() {
+        return tamaño;
+    }
+
+    public String getpresion() {
+        return presion;
+    }
+    public void setmarca(String marca) {
+        this.marca = marca;
+    }
+
+    public void settamaño(String tamaño) {
+        this.tamaño = tamaño;
+    }
+
+    public void setpresion(String presion) {
+        this.presion = presion;
+    }
     public void displayInfo(){
         System.err.println("Neumaticos Information:");
         System.err.println("Marca: " + marca);

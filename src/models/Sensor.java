@@ -13,6 +13,28 @@ public class Sensor {
         this.temperatura = temperatura;
         this.presión = presión;
     }
+                public String getvelocidad() {
+        return velocidad;
+    }
+
+    public String gettemperatura() {
+        return temperatura;
+    }
+
+    public String getpresion() {
+        return presión;
+    }
+    public void setvelocidad(String velocidad) {
+        this.velocidad = velocidad;
+    }
+
+    public void settemperatura(String temperatura) {
+        this.temperatura = temperatura;
+    }
+
+    public void setpresion(String presion) {
+        this.presión = presion;
+    }
 
     public void displayInfo(){
         System.err.println("Sensor Information:");

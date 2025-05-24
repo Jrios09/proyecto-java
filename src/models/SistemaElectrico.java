@@ -13,6 +13,29 @@ public class SistemaElectrico {
         this.luces = luces;
         this.sensores = sensores;
     }
+            public String getbateria() {
+        return bateria;
+    }
+
+    public String getluces() {
+        return luces;
+    }
+
+    public String getsensores() {
+        return sensores;
+    }
+    public void setbateria(String bateria) {
+        this.bateria = bateria;
+    }
+
+    public void setluces(String luces) {
+        this.luces = luces;
+    }
+
+    public void setsensores(String sensores) {
+        this.sensores = sensores;
+    }
+    
 
     public void displayInfo(){
         System.err.println("SistemaElectrico Information:");
